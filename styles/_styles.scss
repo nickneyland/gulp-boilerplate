@@ -1,0 +1,17 @@
+/*------------------------------------*\
+  #STYLES
+\*------------------------------------*/
+
+#title {
+	  color: pink;
+}
+h1 { 
+	text-align: center;
+	font-size: rem(34px);
+	@include breakpoint(phone) {
+		font-size: rem(10px);
+	}
+}
+p {
+	text-align: center;
+}
